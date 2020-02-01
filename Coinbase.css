@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/****************************** Hero Section ***************************************/
+.backgroundWrapper  {
+    height: auto;
+    width: auto;
+    background-image: url("./images/bg.jpg");
+    background-color: transparent;
+}
+.heroContainer  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+}
+.heroNavigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60PX;
+    margin: 5px 50px 80px 50px;
+}
+.heroNavImg {
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-grow: 2;
+    margin-left: 15px;
+}
+
+/********************************** Beginning of DropDown *******************************/
+/* Dropdown Button */
+.dropbtn {
+    word-spacing: 5px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {  
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block; 
+      margin-top: 10px;
+}
+/************************************* End of DropDown ************************************/
+.heroNavContainer   {
+    margin: auto 14px;
+}
+.navAnchor   {
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.navAnchorBorder {
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 10px;
+}
+  
+.heroHeader {
+    margin-bottom: 40px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .2em;
+    font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+}
+.heroInfo   {
+    width: 420px;
+    height: 120px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+
+}
+.heroForm   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#Email{
+    width: 280px;
+    height: 50px;
+    padding: 18px 18px 16px 20px;
+    border: black solid 1px;
+    margin: auto;
+    margin-right: 10px;
+    border-radius: 4px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: gray;
+}
+#confirmButton  {
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    border: black solid 1px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    background-image: linear-gradient(#3384c3,#2375b4);
+    background-color: #2B71B1;
+    text-decoration: none;
+}
+#confirmButton:hover{
+    background-image: none;    
+}
+.heroFooter {
+    display: flex;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+h1  {
+    font-size: 44px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+/******************************************** Below the Fold ******************************************************/
+/******************************************** Below the Fold ******************************************************/
+.newsWrapper {
+    width: auto;
+    height: 70px;
+    background-color: #FAFAFA;
+}
+.newsContainer  {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.newsImage  {
+    margin: auto 30px;
+    -webkit-filter: grayscale(100%);
+    opacity: 0.8;
+}
+.statsWrapper   {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 250px;
+    margin: auto;
+}
+.statsContainer  {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.statsLarge {
+    font-size: 81px;
+    color: #1D75B7;
+    font-weight: 100;
+    letter-spacing: 0.03em;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.statsSmall {
+    margin: auto;
+    width: 70%;
+    color: #787878;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.spacerContainer    {
+    height: 100px;
+    margin: auto;
+    display: flex;
+    max-width: 1150px;
+    align-self: center;
+}
+.spacerLine {
+    background-color: #787878;
+    height: 1px;
+    flex-grow: 2;
+    width: auto;
+    margin: auto 30px;
+}
+.spacerText {
+    margin: auto;
+    color: #787878;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.startedWrapper {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    padding: 30px 0px;
+}
+.startedSteps   {
+    display: flex;
+    flex-direction: column;
+}
+.startedContentContainer    {
+    padding-top: 20px;
+    padding-left: 30px;
+    width: 80%;
+    display: flex;
+    height: 120px;
+    justify-content: space-around;
+}
+.startedButton  {
+    font-size: 18px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border: gray solid 1px;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: #1D75B7;
+    background-color: white;
+    margin-right: 30px;
+}
+.startedHeader  {
+    color: rgb(120, 120, 120);
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+.startedParagraph   {
+    margin: 10px 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #3E4552;
+}
+/****************************Below the Fold 2 *****************************/
+.featuresWrapper    {
+    background-color: #FAFAFA;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px;
+}
+.featuresRow    {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+.featuresContainer  {
+    display: flex;
+    width: 50%;
+    padding: 40px 0px;
+}
+.featuresInfo   {
+    display: flex;
+    flex-direction: column;
+}
+.featuresHeader {
+    color: #787878;
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+.featuresParagraph  {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #3E4552;
+    margin: 20px 80px 20px 0px;
+}
+.featuresAnchor {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0168bb;
+    
+}
+.featuresAnchor:hover{
+    color: #005580;
+    text-decoration: underline;
+}
+.featuresImage  {
+    margin: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.merchWrapper   {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.merchContainer {
+    padding-top: 30px;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.merchArrowRight{
+    margin: auto 20px auto 250px;
+    
+}
+.merchArrowLeft{
+    margin: auto 250px auto 20px;
+}
+.merchInfo  {
+    padding-top: 30px;
+}
+.merchImage {
+    margin-right: 150px;
+}
+.subMerchLinksContainer {
+    padding: 20px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin-bottom: 50px;
+}
+.subMerchLink  {
+    text-decoration: none;
+    color: #A5A5A5;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.subMerchLink:hover  {
+    color: #0168bb;
+    font-weight: bold;
+}
+/**************************** FOOTER *****************************/
+.footerWrapper  {
+    height: 400px;
+    background-color: #f8f8f8;
+    width: auto;
+}
+.footerContainer    {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+.footerSubContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8%;
+}
+.footerRights   {
+    margin-top: 16px;
+    color: #9196aa;
+    font-size: 14px;
+}
+.footerHeader   {
+    font-size: 18px;
+    font-weight: bold;
+    color: #9196aa;
+    font-family: 'proxima-nova','Helvetica Neue',Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+}
+.footerList {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.footerLink {
+    color: #9196aa;
+    text-decoration: none;
+}
+.footerLink:hover {
+    text-decoration: underline;
+}
